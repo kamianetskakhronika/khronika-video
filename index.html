@@ -23,8 +23,8 @@ video{display:block;width:100%;aspect-ratio:9/16;background:#000;object-fit:cont
 .info{padding:12px 14px 14px;display:flex;flex-direction:column;gap:6px}
 .t{font-size:18px;font-weight:bold;line-height:1.25}
 .m{color:var(--muted);font-size:14px}
-.st{font-size:13px;font-family:system-ui,sans-serif;font-weight:600}
-.st.wait{color:var(--wait)}.st.plan{color:var(--plan)}.st.done{color:var(--done)}
+.st{font-size:13px;font-family:system-ui,sans-serif;font-weight:600;display:flex;flex-direction:column;gap:2px}
+.wait{color:var(--wait)}.plan{color:var(--plan)}.done{color:var(--done)}
 .links{display:flex;gap:14px;font-size:14px;font-family:system-ui,sans-serif}
 .links a,.links button{color:var(--gold);background:none;border:0;padding:0;font:inherit;cursor:pointer;
 text-decoration:underline}
@@ -34,15 +34,15 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 </style></head><body>
 <header><h1>Кам'янецька хроніка</h1>
 <p class="sub">Відео за книгою Сергія Бабія — для перегляду перед публікацією. Оновлено 07.11.2026.</p>
-<div class="bar"><button class="on" data-f="all">Усі (18)</button>
-<button data-f="wait">Чекають перегляду (8)</button>
-<button data-f="plan">Заплановані (8)</button>
-<button data-f="done">Опубліковані (2)</button></div></header>
-<main><article class="card" id="01-dykyi-med" data-s="done">
+<div class="bar"><button class="on" data-f="all">Усі</button>
+<button data-f="wait">Чекають перегляду</button>
+<button data-f="plan">Заплановані</button>
+<button data-f="done">Опубліковані</button></div></header>
+<main><article class="card" id="01-dykyi-med" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-06T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-06T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/01-dykyi-med-v6.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/01-dykyi-med-v6.mp4"></video>
 <div class="info"><div class="t">01. Край, де мед виступав просто з трави</div>
 <div class="m">с. 4–5 · 1:50</div>
-<div class="st done">Опубліковано 06.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/01-dykyi-med-v6.mp4">Завантажити</a>
 <button class="copy" data-id="01-dykyi-med">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>У давніх описах земля навколо Кам&#x27;янця — величезний вулик: бджоли жили в пнях, дуплах і навіть просто біля землі. Той, хто першим вистежив бджіл, залишав на дереві власний знак, і ця борть ставала його. Чужу зачіпати не дозволялося, а порушників суворо карали. А 1837 року в Подільській губернії налічувалося до 200 тисяч вуликів.
 
@@ -50,11 +50,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: фоновий трек, згенерований в ElevenLabs (music_v2) для ранньої версії `video/` і подовжений для монтажу (`flow-montage-v1/assets/music.mp3`, звірено за звуком). Сторонніх авторів немає, підпис не потрібен; умови використання — за тарифом ElevenLabs.
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #мед #бджоли #Поділля #Ukraine #history</p></details></div></article><article class="card" id="05-zasnovnyky" data-s="done">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #мед #бджоли #Поділля #Ukraine #history</p></details></div></article><article class="card" id="05-zasnovnyky" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-07T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-07T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/05-zasnovnyky-v2.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/05-zasnovnyky-v2.mp4"></video>
 <div class="info"><div class="t">05. Хто заснував Кам&#x27;янець?</div>
 <div class="m">с. 6–8 · 1:44</div>
-<div class="st done">Опубліковано 07.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/05-zasnovnyky-v2.mp4">Завантажити</a>
 <button class="copy" data-id="05-zasnovnyky">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Археологи доводять: люди жили на острові з давніх-давен — трипільці, черняхівці, тиверці, поселення Київської Русі. А містом із каменю його «умурували» брати Юрій та Олександр Коріатовичі: квадратний ринок, неприступний замок, розвідний міст, свої монети й герб. 1374 року брати дали місту Магдебурзьке право.
 
@@ -62,11 +62,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: «Estampie Retrove», Робертсбриджський кодекс (бл. 1360), орган, викон. Metzner. Ліцензія CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Estampie_Retrove_Robertsbridge.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Коріатовичі #Середньовіччя #Поділля #Ukraine #history</p></details></div></article><article class="card" id="06-rozkvit" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Коріатовичі #Середньовіччя #Поділля #Ukraine #history</p></details></div></article><article class="card" id="06-rozkvit" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-08T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-08T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/06-rozkvit-v2.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/06-rozkvit-v2.mp4"></video>
 <div class="info"><div class="t">06. Кам&#x27;янець 500 років тому: майже як Київ</div>
 <div class="m">с. 9–11 · 1:42</div>
-<div class="st plan">Заплановано на 08.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/06-rozkvit-v2.mp4">Завантажити</a>
 <button class="copy" data-id="06-rozkvit">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>У місті жило десять-дванадцять тисяч людей, працювало чотириста ремісників у шістнадцяти цехах, а торгівлю тримали купці-вірмени. Вірменський хроніст Тер-Ованес із сином і онуками записав події з 1410 по 1652 рік — і цей літопис теж називається «Кам&#x27;янецька хроніка». А 1594 року король Зигмунт ІІІ Ваза зрівняв Кам&#x27;янець у правах зі Львовом.
 
@@ -74,11 +74,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Туано Арбо — «Basse-Danse» (з «Orchésographie», 1589), викон. Collegium Vocale. Ліцензія CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Thoinot_Arbeau_--_Basse-Danse.opus
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ремесла #вірмени #Поділля #Ukraine #history</p></details></div></article><article class="card" id="07-osmanska-imperiia" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ремесла #вірмени #Поділля #Ukraine #history</p></details></div></article><article class="card" id="07-osmanska-imperiia" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-09T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-09T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/07-osmanska-imperiia-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/07-osmanska-imperiia-v1.mp4"></video>
 <div class="info"><div class="t">07. 150 000 проти двох тисяч: облога Кам&#x27;янця 1672</div>
 <div class="m">с. 12–17 · 2:47</div>
-<div class="st plan">Заплановано на 09.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/07-osmanska-imperiia-v1.mp4">Завантажити</a>
 <button class="copy" data-id="07-osmanska-imperiia">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Султан Мехмед IV веде на Кам&#x27;янець сто п&#x27;ятдесят тисяч війська. Щодня фортецю б&#x27;ють двісті гармат, турки підкопуються під обидва замки, а вибух валить майже половину муру. Коли сил більше нема, комендант наказує вивісити білий прапор. 2 вересня султан в&#x27;їжджає в місто, і Кам&#x27;янець майже двадцять сім років належатиме Османській імперії.
 
@@ -86,11 +86,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: «Hüseynî Saz Semâisi», класична османська музика, автор невідомий. Суспільне надбання. Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Husseyni_Saz_Semayissi_.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #облога #ОсманськаІмперія #Поділля #Ukraine #history</p></details></div></article><article class="card" id="18-hektor" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #облога #ОсманськаІмперія #Поділля #Ukraine #history</p></details></div></article><article class="card" id="18-hektor" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-10T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-10T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/18-hektor-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/18-hektor-v1.mp4"></video>
 <div class="info"><div class="t">18. 2100 проти 150 000: останній бій Володийовського</div>
 <div class="m">с. 18–23 · 1:50</div>
-<div class="st plan">Заплановано на 10.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/18-hektor-v1.mp4">Завантажити</a>
 <button class="copy" data-id="18-hektor">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Літо 1672 року: на Кам&#x27;янець іде величезна турецька армія, а місто захищають дві тисячі сто людей. Подолянин Юрій Володийовський утримує угорських піхотинців власним коштом і жене татар за Дністер. Та під башти Старого замку вже підкладено міни — і доля фортеці вирішується за один вечір.
 
@@ -98,21 +98,21 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Джон Дауленд (1604) — «Lachrimae, № 21: «M. George Whitehead His Almand» (консорт віол)», викон. Phillip W. Serna (усі партії віол). Ліцензія CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:John_Dowland_%281563-1626%29_-_M._George_Whitehead_His_Almand%2C_Lachrimae%2C_No.21_for_Treble%2C_Tenor_%26_Bass_Viols_with_Great_Bass_Violone_in_G_1604.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Володийовський #Сенкевич #СтарийЗамок #1672 #Ukraine #history</p></details></div></article><article class="card" id="02-shliuzy" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Володийовський #Сенкевич #СтарийЗамок #1672 #Ukraine #history</p></details></div></article><article class="card" id="02-shliuzy" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-12T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-12T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/02-shliuzy-v3.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/02-shliuzy-v3.mp4"></video>
 <div class="info"><div class="t">02. Як річку зробили захисником Кам&#x27;янця</div>
 <div class="m">с. 27 · 1:51</div>
-<div class="st plan">Заплановано на 12.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/02-shliuzy-v3.mp4">Завантажити</a>
 <button class="copy" data-id="02-shliuzy">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Кам&#x27;янець і так стояв над глибоким каньйоном. Та річку вирішили зробити ще однією лінією оборони: дві брами зі шлюзами, Польська і Руська, піднімали воду навколо Старого міста. Під час нападу Смотрич місцями розливався до двохсот метрів завширшки. А найбільше шкодили цій системі… великі повені.
 
 За книгою Сергія Бабія „Кам&#x27;янецька хроніка“, с. 27–28
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #фортеця #Смотрич #Поділля #Ukraine #history</p></details></div></article><article class="card" id="04-ikona" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #фортеця #Смотрич #Поділля #Ukraine #history</p></details></div></article><article class="card" id="04-ikona" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-13T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-13T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/04-ikona-v3.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/04-ikona-v3.mp4"></video>
 <div class="info"><div class="t">04. На цій іконі пекли хліб, як на дошці</div>
 <div class="m">с. 29–30 · 1:40</div>
-<div class="st plan">Заплановано на 13.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/04-ikona-v3.mp4">Завантажити</a>
 <button class="copy" data-id="04-ikona">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Ікону Божої Матері написали ще в X столітті на кипарисовій дошці. 1672 року турки прийшли на Поділля, вірменська громада покинула Кам&#x27;янець, а святиню вивезли до Туреччини — там звичайна сім&#x27;я готувала на ній хліб. Вірмени впізнали ікону, викупили її й повезли додому. Та після 1920 року вона зникла майже на сімдесят років.
 
@@ -120,11 +120,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: SERGO.TEL — «April — імпровізація на дудуку», викон. SERGO.TEL (дудук). Ліцензія CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:SERGO.TEL_-_April_-_duduk-improvisation2.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ікона #вірмени #Поділля #Ukraine #history</p></details></div></article><article class="card" id="14-sud-trokh-pashiv" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ікона #вірмени #Поділля #Ukraine #history</p></details></div></article><article class="card" id="14-sud-trokh-pashiv" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-14T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-14T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/14-sud-trokh-pashiv-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/14-sud-trokh-pashiv-v1.mp4"></video>
 <div class="info"><div class="t">14. Сина Хмельницького судили в Кам&#x27;янці. За що?</div>
 <div class="m">с. 31–34 · 1:49</div>
-<div class="st plan">Заплановано на 14.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/14-sud-trokh-pashiv-v1.mp4">Завантажити</a>
 <button class="copy" data-id="14-sud-trokh-pashiv">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Турки повернули Юрію Хмельницькому гетьманський титул, і він правив у Немирові як «князь Сарматський» — жорстоко, з податком навіть на весілля. Але одна розправа обернулася для нього публічним судом на площі біля кам&#x27;янецької ратуші, де вирок натовпу перекладав дванадцятирічний хлопчик.
 
@@ -132,11 +132,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: автор невідомий (османська класична музика) — «Hüseynî Saz Semâisi» (суспільне надбання, Wikimedia Commons).
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ЮрійХмельницький #Хмельницький #гетьман #17століття #Ukraine #history</p></details></div></article><article class="card" id="22-yak-turky-zdavaly" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ЮрійХмельницький #Хмельницький #гетьман #17століття #Ukraine #history</p></details></div></article><article class="card" id="22-yak-turky-zdavaly" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-15T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-15T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/22-yak-turky-zdavaly-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/22-yak-turky-zdavaly-v1.mp4"></video>
 <div class="info"><div class="t">22. Паша сів на гармату: «Вивозьте разом зі мною»</div>
 <div class="m">с. 35–37 · 1:58</div>
-<div class="st plan">Заплановано на 15.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/22-yak-turky-zdavaly-v1.mp4">Завантажити</a>
 <button class="copy" data-id="22-yak-turky-zdavaly">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>За Карловецьким миром 1699 року Кам&#x27;янець після двадцяти семи турецьких років повертається до Польщі. Комендант Кахріман-паша тягне з передачею п&#x27;ять місяців, з міста вивозять сотню возів і 270 гармат, а в головній мечеті звучить останній намаз. Єдина окрема умова турків — ніколи не руйнувати мінарет.
 
@@ -144,11 +144,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Джузеппе Доніцетті (Доніцетті-паша, 1839) — «Mecidiye Marşı — імператорський гімн султана Абдул-Меджида (мінор)» (суспільне надбання, Wikimedia Commons).
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #мінарет #Османи #КарловецькийМир #1699 #Ukraine #history</p></details></div></article><article class="card" id="08-desiat-kaviaren" data-s="plan">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #мінарет #Османи #КарловецькийМир #1699 #Ukraine #history</p></details></div></article><article class="card" id="08-desiat-kaviaren" data-pub='[[&quot;YouTube&quot;, &quot;2026-11-17T17:00:00+02:00&quot;], [&quot;TikTok&quot;, &quot;2026-11-17T20:00:00+02:00&quot;]]'>
 <video controls playsinline preload="none" poster="posters/08-desiat-kaviaren-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/08-desiat-kaviaren-v1.mp4"></video>
 <div class="info"><div class="t">08. Кава в Кам&#x27;янці — раніше, ніж у Відні?</div>
 <div class="m">с. 41–42 · 1:30</div>
-<div class="st plan">Заплановано на 17.11</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/08-desiat-kaviaren-v1.mp4">Завантажити</a>
 <button class="copy" data-id="08-desiat-kaviaren">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Оборонці Кам&#x27;янця знайшли в покинутому турецькому обозі мішок дивних зелених зерен — їх не хотіли їсти навіть коні. Обсмажені на вогні, вони дали напій, від якого не спала вся фортечна сторожа. А до 1681 року в місті було вже десять кав&#x27;ярень — на два роки раніше, ніж у Відні.
 
@@ -156,11 +156,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Йоганн Себастьян Бах (бл. 1740) — «Сюїта для лютні до мінор BWV 997: Сарабанда (флейта й клавесин)», викон. Al Goldstein (Pandora Records / Al Goldstein Archive). Ліцензія CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_BWV_997_-_Lute_Suite_No._2_in_C_minor_-_3._Sarabande_-_Flute_and_Harpsichord.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #кава #кавярня #Поділля #Ukraine #history</p></details></div></article><article class="card" id="16-kat-mista" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #кава #кавярня #Поділля #Ukraine #history</p></details></div></article><article class="card" id="16-kat-mista" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/16-kat-mista-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/16-kat-mista-v1.mp4"></video>
 <div class="info"><div class="t">16. Чому запорожці назвали султана кам&#x27;янецьким катом?</div>
-<div class="m">с. 48–52 · 0:00</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="m">с. 48–52 · 1:49</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/16-kat-mista-v1.mp4">Завантажити</a>
 <button class="copy" data-id="16-kat-mista">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Посада міського ката в Кам&#x27;янці з&#x27;явилася разом із магдебурзьким правом. Кат мав платню, одяг від міста й учнів, які тренувалися на дерев&#x27;яній кобилі. А слава кам&#x27;янецьких катів була така, що 1703 року бургомістр Чорткова лишився в місті заставою, поки «позичений» кат не повернеться.
 
@@ -168,11 +168,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Kevin MacLeod — «Waterford (стилізація під середньовічну музику)», викон. Kevin MacLeod. Ліцензія CC BY 3.0 US (https://creativecommons.org/licenses/by/3.0/us/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:MacLeod%2C_Kevin_-_Waterford.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #кат #магдебурзькеправо #середньовіччя #Ukraine #history</p></details></div></article><article class="card" id="10-tymish-i-rozanda" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #кат #магдебурзькеправо #середньовіччя #Ukraine #history</p></details></div></article><article class="card" id="10-tymish-i-rozanda" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/10-tymish-i-rozanda-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/10-tymish-i-rozanda-v1.mp4"></video>
 <div class="info"><div class="t">10. Князівна, на яку не можна було дивитися</div>
 <div class="m">с. 56–59 · 2:04</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/10-tymish-i-rozanda-v1.mp4">Завантажити</a>
 <button class="copy" data-id="10-tymish-i-rozanda">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Розанду, доньку молдавського господаря Василя Лупу, сватали гетьман, магнат і великий візир, а здобув син Богдана Хмельницького — війною. Пишне весілля, ревнощі, гармата, до якої батько прив&#x27;язав Тимоша, і вдовине життя в Кам&#x27;янці.
 
@@ -180,11 +180,23 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Йоганн Себастьян Бах (бл. 1710) — «Сюїта мі мінор BWV 996: Сарабанда (лютневий клавесин, Lautenwerck)», викон. Al Goldstein (Pandora Records / Al Goldstein Archive). Ліцензія CC BY-SA 2.0 (https://creativecommons.org/licenses/by-sa/2.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach_-_Suite_BWV_996%2C_E_Minor_-_IV_%28Sarabande%29.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ТимішХмельницький #Розанда #БогданХмельницький #козаки #Ukraine #history</p></details></div></article><article class="card" id="12-sofi-de-vitt" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #ТимішХмельницький #Розанда #БогданХмельницький #козаки #Ukraine #history</p></details></div></article><article class="card" id="20-pandemiia" data-pub='[]'>
+<video controls playsinline preload="none" poster="posters/20-pandemiia-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/20-pandemiia-v1.mp4"></video>
+<div class="info"><div class="t">20. Коштовності на вулицях — і ніхто їх не бере</div>
+<div class="m">с. 64–66 · 1:41</div>
+<div class="st"></div>
+<div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/20-pandemiia-v1.mp4">Завантажити</a>
+<button class="copy" data-id="20-pandemiia">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Влітку 1770 року в Кам&#x27;янці спалахнула чума. Замовкли дзвони, люди родинами тікали в ліси, а біля хворих лишилися семеро священиків і кілька лікарів. Вижив лише один — отець Мартин Рядочевський, який до кінця ходив між хворими з молитвою й ліками.
+
+За книгою Сергія Бабія „Кам&#x27;янецька хроніка“, с. 64–66
+
+Музика: Фелікс Мендельсон (1847) — «Струнний квартет № 6 фа мінор ор. 80: III. Adagio», викон. Musopen String Quartet (суспільне надбання, Wikimedia Commons).
+
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #чума #епідемія #18століття #Ukraine #history</p></details></div></article><article class="card" id="12-sofi-de-vitt" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/12-sofi-de-vitt-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/12-sofi-de-vitt-v1.mp4"></video>
 <div class="info"><div class="t">12. Від рабині на шнурку до графині з Софіївкою</div>
 <div class="m">с. 69–72 · 2:03</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/12-sofi-de-vitt-v1.mp4">Завантажити</a>
 <button class="copy" data-id="12-sofi-de-vitt">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Софію, дівчинку зі стамбульського ринку, викупив за тисячу червоних злотих син коменданта Кам&#x27;янця. Вона стала паризькою левицею, генеральшею кам&#x27;янецької фортеці, а потім дружиною найбагатшого магната Польщі, який збудував для неї парк в Умані.
 
@@ -192,11 +204,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Вольфганг Амадей Моцарт (1783) — «Соната для фортепіано № 12 фа мажор K. 332: II. Adagio», викон. La Pianista (фортепіано). Ліцензія CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Mozart_-_Piano_Sonata_No._12_in_F_Major%2C_K.332_-_II._Adagio.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Софіївка #СофіяПотоцька #Умань #18століття #Ukraine #history</p></details></div></article><article class="card" id="09-ustym-karmaliuk" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Софіївка #СофіяПотоцька #Умань #18століття #Ukraine #history</p></details></div></article><article class="card" id="09-ustym-karmaliuk" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/09-ustym-karmaliuk-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/09-ustym-karmaliuk-v1.mp4"></video>
 <div class="info"><div class="t">09. Чому Папську башту звуть Кармалюковою?</div>
 <div class="m">с. 102–105 · 1:56</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/09-ustym-karmaliuk-v1.mp4">Завантажити</a>
 <button class="copy" data-id="09-ustym-karmaliuk">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Устим Кармалюк сидів у кам&#x27;янецькій фортеці тричі: його били різками крізь стрій із п&#x27;ятисот солдатів, а в камері він ставав старостою і замість харчів приносив горілку й карти. Одного вечора арештанти вибили дошки з нар і прорвалися до воріт під пострілами.
 
@@ -204,11 +216,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Микола Лисенко (1877) — «Українська рапсодія № 2 «Думка-шумка», ор. 18», викон. Олександр Козаренко (фортепіано), звукорежисер Іван Огар. Ліцензія CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Lysenko-Rhapsody-No._2.flac
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Кармалюк #УстимКармалюк #Поділля #Ukraine #history</p></details></div></article><article class="card" id="13-nechysta-syla" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Кармалюк #УстимКармалюк #Поділля #Ukraine #history</p></details></div></article><article class="card" id="13-nechysta-syla" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/13-nechysta-syla-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/13-nechysta-syla-v1.mp4"></video>
 <div class="info"><div class="t">13. Хто кидався черепками з-під печі?</div>
 <div class="m">с. 112–113 · 1:23</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/13-nechysta-syla-v1.mp4">Завантажити</a>
 <button class="copy" data-id="13-nechysta-syla">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>1825 рік, Тринітарська вулиця в Старому місті. Кажуть, у домі мебляра Тимофія оселилася нечиста сила: речі літають, з припічка скаче чорна істота. Поліцмейстер із городовими оточує будинок — і розгадка виявляється зовсім земною.
 
@@ -216,11 +228,35 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Каміль Сен-Санс (1874), аранж. Kevin MacLeod — «Танець смерті» (Danse macabre) — аранжування, викон. Kevin MacLeod. Ліцензія CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Camille_Saint-Sans_Danse_Macabre.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #нечистасила #СтаремістоКамянця #19століття #Ukraine #history</p></details></div></article><article class="card" id="15-maister-i-margaryta" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #нечистасила #СтаремістоКамянця #19століття #Ukraine #history</p></details></div></article><article class="card" id="19-povii-vitre" data-pub='[]'>
+<video controls playsinline preload="none" poster="posters/19-povii-vitre-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/19-povii-vitre-v1.mp4"></video>
+<div class="info"><div class="t">19. «Повій, вітре, на Вкраїну» народилася в Кам&#x27;янці?</div>
+<div class="m">с. 131–133 · 1:32</div>
+<div class="st"></div>
+<div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/19-povii-vitre-v1.mp4">Завантажити</a>
+<button class="copy" data-id="19-povii-vitre">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Семінарист Степан Руданський і його найкращий друг Іван закохалися в одну дівчину — доньку вдови, у якої винаймали квартиру. Марія обрала Степана, та коли він покинув духовну кар&#x27;єру заради медицини, вийшла заміж за Івана. Після цієї зради й з&#x27;явилася пісня.
+
+За книгою Сергія Бабія „Кам&#x27;янецька хроніка“, с. 131–133
+
+Музика: Микола Лисенко (1876) — «Мрія» («На солодкім меду»), ор. 12, викон. Ірина Посвятовська (фортепіано), Львівська консерваторія / Вікімедіа Україна. Ліцензія CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Lysenko-Dream_op._12.ogg
+
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Руданський #СтепанРуданський #ПовійВітре #українськапісня #Ukraine #history</p></details></div></article><article class="card" id="17-skarb" data-pub='[]'>
+<video controls playsinline preload="none" poster="posters/17-skarb-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/17-skarb-v1.mp4"></video>
+<div class="info"><div class="t">17. Копали колодязь — знайшли бочки золота</div>
+<div class="m">с. 167–168 · 1:15</div>
+<div class="st"></div>
+<div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/17-skarb-v1.mp4">Завантажити</a>
+<button class="copy" data-id="17-skarb">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>1910 рік, Ольгопіль. На глибині чотирьох метрів лопати натрапили на кам&#x27;яну кладку, а під нею — погріб, пожовклі листи польською і план підземного ходу аж до Дністра. Скарб охороняли так, що до погреба не пускали без дозволу з Петербурга навіть архівіста. А що було далі, невідомо й досі.
+
+За книгою Сергія Бабія „Кам&#x27;янецька хроніка“, с. 167–168
+
+Музика: Ерік Саті (1890) — «Гносієнна № 1», викон. La Pianista (фортепіано). Ліцензія CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Satie_-_Gnossienne_1.ogg
+
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #скарб #Поділля #таємниці #Ukraine #history</p></details></div></article><article class="card" id="15-maister-i-margaryta" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/15-maister-i-margaryta-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/15-maister-i-margaryta-v1.mp4"></video>
 <div class="info"><div class="t">15. Чи є Кам&#x27;янець у «Майстрі і Маргариті»?</div>
 <div class="m">с. 173–175 · 1:39</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/15-maister-i-margaryta-v1.mp4">Завантажити</a>
 <button class="copy" data-id="15-maister-i-margaryta">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Перша світова, госпіталь і нескінченні операції — а між ними прогулянки над каньйоном, до Старого замку й Замкового мосту. Тетяна Лаппа, перша дружина Михайла Булгакова, згадувала, що ця панорама відбилася в описі Єршалаїма. Далі буде морфій, шприц із дистильованою водою і розлучення.
 
@@ -228,11 +264,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Ерік Саті (1888) — «Гімнопедія № 1 «Lent et douloureux»», викон. запис Musopen (фортепіано) (суспільне надбання, Wikimedia Commons).
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Булгаков #МайстеріМаргарита #ПершаСвітова #література #Ukraine #history</p></details></div></article><article class="card" id="11-persha-prysiaga" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Булгаков #МайстеріМаргарита #ПершаСвітова #література #Ukraine #history</p></details></div></article><article class="card" id="11-persha-prysiaga" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/11-persha-prysiaga-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/11-persha-prysiaga-v1.mp4"></video>
 <div class="info"><div class="t">11. Армія без присяги: Кам&#x27;янець, Покрова 1919</div>
 <div class="m">с. 186–188 · 1:30</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/11-persha-prysiaga-v1.mp4">Завантажити</a>
 <button class="copy" data-id="11-persha-prysiaga">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Восени 1919 року Кам&#x27;янець — столиця УНР, а українське військо досі не має ні тексту присяги, ні порядку, як її складати. Усе це готують тут, і 14 жовтня місто зустрічає Симона Петлюру дзвонами, гімном і гарматним салютом.
 
@@ -240,11 +276,11 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Микола Лисенко (1885), сл. Олександра Кониського — «Боже великий, єдиний» («Молитва за Україну»), викон. мішаний хор факультету культури і мистецтв ЛНУ ім. Івана Франка, диригентка Марія Камінська. Ліцензія CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Lysenko-Bozhe_velykyj_jedynyj.ogg
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #УНР #СимонПетлюра #Покрова #1919 #Ukraine #history</p></details></div></article><article class="card" id="03-svitovyi-tur" data-s="wait">
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #УНР #СимонПетлюра #Покрова #1919 #Ukraine #history</p></details></div></article><article class="card" id="03-svitovyi-tur" data-pub='[]'>
 <video controls playsinline preload="none" poster="posters/03-svitovyi-tur-v7.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/03-svitovyi-tur-v7.mp4"></video>
 <div class="info"><div class="t">03. Світова подорож «Щедрика» почалася в Кам&#x27;янці</div>
 <div class="m">с. 191–192 · 1:31</div>
-<div class="st wait">Чекає перегляду</div>
+<div class="st"></div>
 <div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/03-svitovyi-tur-v7.mp4">Завантажити</a>
 <button class="copy" data-id="03-svitovyi-tur">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>1919 рік. Симон Петлюра кличе митців і ставить завдання: за тиждень зібрати національну капелу для закордонного турне. Готувалися в Кам&#x27;янці три місяці, а 24 березня сто співаків на чолі з Олександром Кошицем виїхали з міста. Шістнадцять країн, двісті міст, шістсот сім концертів — і найбільше публіку підкорив «Щедрик» Миколи Леонтовича.
 
@@ -252,12 +288,47 @@ details p{white-space:pre-wrap;margin:6px 0 0}
 
 Музика: Микола Леонтович — «Щедрик»: «Carol of the Bells — Ukrainian» у виконанні оркестру ВПС США (1993) під голосом і запис хору Олександра Кошиця 1922 року з моменту «1922». Обидва записи — суспільне надбання, джерело: Wikimedia Commons. Підпис не обов&#x27;язковий.
 
-#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Щедрик #Леонтович #Кошиць #Ukraine #history</p></details></div></article></main><script>
-const cards=[...document.querySelectorAll('.card')];
-document.querySelectorAll('.bar button').forEach(b=>b.onclick=()=>{
-  document.querySelectorAll('.bar button').forEach(x=>x.classList.toggle('on',x===b));
-  cards.forEach(c=>c.classList.toggle('hide',b.dataset.f!=='all'&&c.dataset.s!==b.dataset.f));
-});
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #Щедрик #Леонтович #Кошиць #Ukraine #history</p></details></div></article><article class="card" id="21-oboz" data-pub='[]'>
+<video controls playsinline preload="none" poster="posters/21-oboz-v1.jpg" src="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/21-oboz-v1.mp4"></video>
+<div class="info"><div class="t">21. Куди поділося церковне золото Кам&#x27;янця?</div>
+<div class="m">с. 196–197 · 0:00</div>
+<div class="st"></div>
+<div class="links"><a href="https://github.com/kamianetskakhronika/khronika-video/releases/download/videos/21-oboz-v1.mp4">Завантажити</a>
+<button class="copy" data-id="21-oboz">Посилання</button></div><details><summary>Підпис для YouTube</summary><p>Улітку 1922 року з Кам&#x27;янця вирушає великий кінний обоз під охороною трьох червоноармійців. Під старими веретами — ламане золото, золоті чаші й хрести, срібло, образи і двадцять п&#x27;ять діамантів з ікони. Усе це «торгові комісари» продають за пів ціни.
+
+За книгою Сергія Бабія „Кам&#x27;янецька хроніка“, с. 196–197
+
+Музика: Микола Лисенко — «Прощальний вальс» для фортепіано, викон. Зеновія-Анна Данчак (фортепіано), Львівська консерваторія / Вікімедіа Україна. Ліцензія CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). Джерело: Wikimedia Commons, https://commons.wikimedia.org/wiki/File:Lysenko-Valse_of_farewell.ogg
+
+#Shorts #КамянецькаХроніка #КамянецьПодільський #історіяУкраїни #1922 #більшовики #церковніцінності #Ukraine #history</p></details></div></article></main><script>
+const cards=[...document.querySelectorAll('.card')], btns=[...document.querySelectorAll('.bar button')];
+const kyiv=new Intl.DateTimeFormat('uk-UA',{timeZone:'Europe/Kyiv',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+const dayKey=d=>d.toLocaleDateString('en-CA',{timeZone:'Europe/Kyiv'});
+function when(t,now){
+  const parts=kyiv.formatToParts(t), g=k=>parts.find(p=>p.type===k).value, hm=g('hour')+':'+g('minute');
+  const diff=dayKey(t)===dayKey(now)?'сьогодні':dayKey(t)===dayKey(new Date(+now+864e5))?'завтра':g('day')+'.'+g('month');
+  return diff+' о '+hm;
+}
+function left(ms){const m=Math.round(ms/6e4),h=Math.floor(m/60);return h?`${h} год ${m%60} хв`:`${m} хв`}
+function refresh(){
+  const now=new Date(), n={all:cards.length,wait:0,plan:0,done:0};
+  cards.forEach(c=>{
+    const pub=JSON.parse(c.dataset.pub), st=c.querySelector('.st');
+    if(!pub.length){c.dataset.s='wait';st.innerHTML='<span class="wait">Чекає перегляду</span>'}
+    else{
+      c.dataset.s=pub.every(([,t])=>new Date(t)<=now)?'done':'plan';
+      st.innerHTML=pub.map(([net,t])=>{const d=new Date(t),past=d<=now;
+        const soon=!past&&d-now<864e5?` (через ${left(d-now)})`:'';
+        return `<span class="${past?'done':'plan'}">${net}: ${past?'опубліковано':'вийде'} ${when(d,now)}${soon}</span>`}).join('');
+    }
+    n[c.dataset.s]++;
+  });
+  const on=btns.find(b=>b.classList.contains('on')).dataset.f;
+  btns.forEach(b=>b.textContent=b.textContent.replace(/ \(\d+\)$/,'')+` (${n[b.dataset.f]})`);
+  cards.forEach(c=>c.classList.toggle('hide',on!=='all'&&c.dataset.s!==on));
+}
+btns.forEach(b=>b.onclick=()=>{btns.forEach(x=>x.classList.toggle('on',x===b));refresh()});
+refresh();setInterval(refresh,60000);
 document.querySelectorAll('video').forEach(v=>v.addEventListener('play',()=>{
   document.querySelectorAll('video').forEach(o=>{if(o!==v)o.pause()});
 }));
